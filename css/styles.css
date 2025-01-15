@@ -126,17 +126,52 @@ footer > h4{
   font-size:x-large;
 }
 
-@media (width >= 500px) {
+@media all and (max-width:500px) {
+
+  * > h1{
+
+    font-size: 12px;
+
+  }
+  
+
+nav > a{
+  font-size: 10px;
+}
+
 img{
+
+  display: none;
+}
+
+
+form{
+  background-color: bisque;
+  width: 400px;
   height: 400px;
-  width: 800px;
+  padding: 100px;
+  font-size:large;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  input{
+  
+    width: 200px;
+    height: 20px;
+  }
+  
+  textarea{
+
+    width: 300px;
+    height: 100px;
+  }
+  
+  button{
+    float:right;
+    height: 40px;
+    width: 200px;
+  }
+
 }
-#github-icon{
-  height: 200px;
-  width: 200px;
-}
-*{
-  flex-wrap: wrap;
-  font-size:smaller;
-}
-}
+
