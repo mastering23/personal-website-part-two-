@@ -52,7 +52,17 @@ color: red;
   padding: auto;
   }
 
+#main-profile #engel-photo{
+  height: 400px;
+  width: 300px;
+  border:3px dotted red;
+  margin: 50px;
+}
 
+#main-profile {
+  font-size: normal;
+  margin: 50px;
+}
 
 section{
 display: flex;
