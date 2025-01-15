@@ -125,3 +125,18 @@ footer > h4{
   width: max-content;
   font-size:x-large;
 }
+
+@media (width >= 500px) {
+img{
+  height: 400px;
+  width: 800px;
+}
+#github-icon{
+  height: 200px;
+  width: 200px;
+}
+*{
+  flex-wrap: wrap;
+  font-size:smaller;
+}
+}
