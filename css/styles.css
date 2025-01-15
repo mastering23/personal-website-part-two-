@@ -1,0 +1,41 @@
+header > img{
+  width: fit-content;
+  height: 200px;
+  place-self: center;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  }
+
+header > h1{
+  place-self: center;
+  }
+
+header > nav{
+place-self: center;
+}
+
+nav > a{
+  text-decoration: none;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+
+section{
+display: flex;
+justify-content: center;
+
+}
+
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  
+  }
