@@ -1,177 +1,96 @@
 *{
-  margin:0;
+  margin: 0;
   padding: 0;
-}
-
-body{
-
-  font-size: xx-large;
-}
-
-header > img{
-  width: fit-content;
-  height: 200px;
-  place-self: center;
 }
 
 header{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color:slateblue;
-  padding: 10px;
-  
-  }
+  align-items: center;
+  background-color:blueviolet;
+  padding:20px ;
+}
 
-header > h1{
-  place-self: center;
+h1{
   color: white;
-  font-size: 4rem;
-  }
-
-header > nav{
-place-self: center;
 }
 
 nav > a{
   text-decoration: none;
-  padding: 20px;
-  font-size: 2rem;
+  margin: 10px;
   font-weight: bolder;
-  color:white;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black; 
 }
 
 a:hover{
-color: red;
+  color: red;
 }
 
-#main-about > section{
+#main-index{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: auto;
-  }
-
-#main-profile #engel-photo{
-  height: 400px;
-  width: 300px;
-  border:3px dotted red;
-  margin: 50px;
 }
 
-#main-profile {
-  font-size: normal;
-  margin: 50px;
-}
-
-section{
-display: flex;
-justify-content: center;
-
-}
-
-article > p > a{
-  text-decoration: none;
-  padding: 20px;
-  font-size: 2rem;
-  font-weight: bolder;
-  font-weight: bolder;
-  color: black;
-  
-}
-
-
-form{
-background-color: bisque;
-width: 600px;
-height: 500px;
-padding: 100px;
-font-size:large;
-font-weight: bolder;
-font-family: 'Times New Roman', Times, serif;
-}
-
-input{
-  margin: 20px;
-  width: 500px;
-  height: 30px;
-}
-
-textarea{
-  margin-top: 10px;
-  width: 600px;
-  height: 300px;
-}
-
-button{
-  float:right;
-  margin-top: 20px;
-  height: 40px;
-  width: 60px;
-}
-
-footer {
-  margin-top: 10px;
+#main-about{
   display: flex;
-  justify-content: center;
-  background-color: black;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main-profile ul{
+  list-style-type: none;
   
 }
 
-footer > h4{
+#code-image{
+height:300px;
+border: 2px dotted gray;
+}
+
+#main-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+#main-contact form{
+background-color:wheat;
+width: 300px;
+padding: 100px;
+}
+
+form input{
+  margin: 15px;
+}
+
+form textarea{
+  width: 300px;
+  height: 100px;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
   color: white;
-  padding: 100px;
-  width: max-content;
-  font-size:x-large;
+  height: 100px;
 }
 
-@media all and (max-width:500px) {
-
-  * > h1{
-
-    font-size: 12px;
-
-  }
-  
-
-nav > a{
-  font-size: 10px;
+footer h4{
+  padding-top: 30px;
 }
-
-img{
-
-  display: none;
-}
-
-
-form{
-  background-color: bisque;
-  width: 400px;
-  height: 400px;
-  padding: 100px;
-  font-size:large;
-  font-weight: bolder;
-  font-family: 'Times New Roman', Times, serif;
-  }
-  
-  input{
-  
-    width: 200px;
-    height: 20px;
-  }
-  
-  textarea{
-
-    width: 300px;
-    height: 100px;
-  }
-  
-  button{
-    float:right;
-    height: 40px;
-    width: 200px;
-  }
-
-}
-
